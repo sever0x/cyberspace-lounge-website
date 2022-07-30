@@ -42,6 +42,8 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 *,
 ::after,
 ::before {
@@ -357,7 +359,7 @@ body {
   --yellow-color: #fcee09; 
   --red-color: #ff003c;
   --black-color: #000;
-  --blue-color: #00f0ff;
+  --blue-color: #02D8F3;
   --gray-color: #d9d9d9;
 }
 
@@ -371,6 +373,7 @@ body {
   height: 55px;
   background-color: var(--gray-color);
   position: relative;
+  cursor: default;
   clip-path: polygon(92% 0, 100% 0%, 100% 100%, 8% 100%, 0% 75%, 0 0);
 }
 
@@ -399,6 +402,7 @@ body {
   height: 55px;
   background-color: var(--gray-color);
   position: relative;
+  cursor: default;
   clip-path: polygon(92% 0%, 100% 25%, 100% 100%, 0% 100%, 0% 75%, 0% 0%);
 }
 
@@ -438,4 +442,103 @@ body {
   font-weight: 500;
   font-size: 20px;
   color: #000;
+}
+
+.s2__content {
+  padding-top: 75px;
+}
+
+.carousel {
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  height: 400px;
+  background-color: var(--gray-color);
+  z-index: 1;
+}
+
+.carousel::before {
+  content: '';
+  width: 1164px;
+  height: 394px;
+  background: var(--blue-color);
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.carousel, .carousel::before {
+  clip-path: polygon(95% 0%, 100% 15%, 100% 100%, 5% 100%, 0% 85%, 0% 0%);
+}
+
+.preview-room {
+  display: flex;
+  width: 597px;
+  height: 394px;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+.preview-room img {
+  width: 597px;
+  height: 394px;
+  margin-top: 3px;
+  margin-left: 3px;
+  clip-path: polygon(100% 0%, 100% 100%, 100% 100%, 10% 101%, 0% 85%, 0% 0%);
+}
+
+.room-info {
+  color: #000;
+  padding-left: 70px;
+  padding-top: 15.5px;
+  padding-right: 70px;
+  padding-bottom: 15.5px;
+  flex-grow: 5;
+  z-index: 2;
+}
+
+.room-info h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.room-info img {
+  width: 370px;
+  padding-top: 6px;
+}
+
+.description {
+  padding-top: 48px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.price {
+  display: inline-block;
+  padding-top: 77px;
+  font-weight: 500;
+  line-height: 24px;
+  border-bottom: 1px solid;
+}
+
+.price span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav-carousel {
+  display: flex;
+  padding-top: 33px;
+  gap: 18px;
+}
+
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background: var(--gray-color);
 }
