@@ -7,6 +7,8 @@ $('#switch_right').click(function () {
         $(this).removeClass('switch_right_inactive');
         $(this).children().css('color', 'black');
     }
+    $('.bakulina').css('display', 'none');
+    $('.peremohy').css('display', 'block');
 });
 $('#switch_left').click(function () {
     if ($(this).hasClass('switch_left_inactive')) {
@@ -16,5 +18,7 @@ $('#switch_left').click(function () {
         $(this).toggleClass('switch_left');
         $(this).removeClass('switch_left_inactive');
         $(this).children().css('color', 'black');
+        $('.bakulina').css('display', 'block');
+        $('.peremohy').css('display', 'none');
     }
 });
