@@ -26,16 +26,16 @@
                     <nav class="header__nav">
                         <ul class="header__list">
                             <li class="header__item">
-                                <a href="#" class="header__link">Services</a>
+                                <a href="#services" class="header__link">Services</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Rooms</a>
+                                <a href="#rooms" class="header__link">Rooms</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Playstation</a>
+                                <a href="#playstation" class="header__link">Playstation</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Contacts</a>
+                                <a href="#contacts" class="header__link">Contacts</a>
                             </li>
                         </ul>
                     </nav>
@@ -65,7 +65,7 @@
                                 Feel like a cyberpunk world in your favorite gaming bar! We have everything you need.
                                 Playstation 4 and Playstation 5, comfortable rooms and author's bar with a hookah!
                             </p>
-                            <a href="#" class="cyberpunk">Reserve</a>
+                            <a href="#rooms" class="cyberpunk">Reserve</a>
                         </div>
                     </div>
                 </div>
@@ -75,14 +75,14 @@
 
     <main class="main">
         <div class="wrapper">
-            <section class="services section-indent">
+            <section class="services section-indent" id="services">
                 <div class="section__wrapper">
                     <div class="section-header">
                         <img src="/img/svg/yellow-line.svg" alt="Yellow Line" class="yellow-line">
                         <h1 class="section-name">Services</h1>
                     </div>
                 </div>
-                <div class="s1__content">
+                <div class="s1__content content">
                     <div class="card">
                         <img src="/img/services/ps.jpg" alt="console">
                         <div class="container">
@@ -117,7 +117,7 @@
                     </div>
                 </div>
             </section>
-            <section class="rooms section-indent">
+            <section class="rooms section-indent" id="rooms">
                 <div class="section__wrapper">
                     <div class="section-header">
                         <img src="/img/svg/yellow-line.svg" alt="Yellow Line" class="yellow-line">
@@ -125,14 +125,14 @@
                     </div>
                     <div class="switch">
                         <div class="switch-btn switch_left" id="switch_left">
-                            <span class="switch-text">bakulina st. 10</span>
+                            <span class="switch-text">Bakulina St. 10</span>
                         </div>
                         <div class="switch-btn switch_right_inactive" id="switch_right">
-                            <span class="switch-text">peremohy ave. 66</span>
+                            <span class="switch-text">Peremohy Ave. 66</span>
                         </div>
                     </div>
                 </div>
-                <div class="s2__content">
+                <div class="s2__content content">
                     <div class="carousel">
                         <div class="carousel-nav">
                             <div class="nav-btn" id="prev">
@@ -156,67 +156,180 @@
                         <div class="bakulina">
                             <div class="item item-1">
                                 <div class="preview-room">
-                                    <img src="/img/room/room1.jpg" alt="Small Room">
+                                    <img src="/img/room/1.jpg" alt="Small Room">
                                 </div>
                                 <div class="room-info">
-                                    <h1>SMALL ROOM</h1>
+                                    <h1>California</h1>
                                     <img src="/img/room/black-line.svg" alt="line">
-                                    <p class="description">A small room for a company of up to 6 people with red neon.
+                                    <p class="description">The small room is designed for 4 people in California style.
                                         The perfect place for an evening get-together with friends!</p>
                                     <p class="price">300 <span>₴</span>/hour</p>
                                 </div>
                             </div>
                             <div class="item item-2 inactive">
                                 <div class="preview-room">
-                                    <img src="/img/room/test.jpg" alt="Small Room">
+                                    <img src="/img/room/2.jpg" alt="Small Room">
                                 </div>
                                 <div class="room-info">
-                                    <h1>BIG ROOM</h1>
+                                    <h1>Los Angeles</h1>
                                     <img src="/img/room/black-line.svg" alt="line">
-                                    <p class="description">A big room for a company of up to 6 people with red neon. The
-                                        perfect place for an evening get-together with friends!</p>
-                                    <p class="price">500 <span>₴</span>/hour</p>
+                                    <p class="description">Room for a large company of up to 12 people in the favorite
+                                        style of Los Angeles.
+                                        Perfect for birthday celebrations!</p>
+                                    <p class="price">600 <span>₴</span>/hour</p>
                                 </div>
                             </div>
                         </div>
                         <div class="peremohy">
-                            <div class="item item-1">
+                            <div class="item item-1 inactive">
                                 <div class="preview-room">
-                                    <img src="/img/room/test.jpg" alt="Test Room">
+                                    <img src="/img/room/3.jpg" alt="Test Room">
                                 </div>
                                 <div class="room-info">
-                                    <h1>Test ROOM</h1>
+                                    <h1>Kyiv</h1>
                                     <img src="/img/room/black-line.svg" alt="line">
-                                    <p class="description">A small room for a company of up to 6 people with red neon.
-                                        The perfect place for an evening get-together with friends!</p>
-                                    <p class="price">300 <span>₴</span>/hour</p>
+                                    <p class="description">The smallest and coziest room in all our bars, designed for 3
+                                        people. Kyiv is a cozy city and the room is the same.
+                                        Perfect for relaxing after a hard evening.</p>
+                                    <p class="price">250 <span>₴</span>/hour</p>
                                 </div>
                             </div>
                             <div class="item item-2 inactive">
                                 <div class="preview-room">
-                                    <img src="/img/room/room1.jpg" alt="Large Room">
+                                    <img src="/img/room/4.jpg" alt="Large Room">
                                 </div>
                                 <div class="room-info">
-                                    <h1>Large ROOM</h1>
+                                    <h1>Pavlograd</h1>
                                     <img src="/img/room/black-line.svg" alt="line">
-                                    <p class="description">A big room for a company of up to 6 people with red neon. The
-                                        perfect place for an evening get-together with friends!</p>
-                                    <p class="price">500 <span>₴</span>/hour</p>
+                                    <p class="description">Room for four players with purple neon and a gorgeous view
+                                        from the window. This room is for true connoisseurs of the moment and games!</p>
+                                    <p class="price">100 <span>₴</span>/hour</p>
+                                </div>
+                            </div>
+                            <div class="item item-3 inactive">
+                                <div class="preview-room">
+                                    <img src="/img/room/2.jpg" alt="Large Room">
+                                </div>
+                                <div class="room-info">
+                                    <h1>Kharkiv</h1>
+                                    <img src="/img/room/black-line.svg" alt="line">
+                                    <p class="description">Large room for 10 people for the coolest parties in the
+                                        evening! Have you ever wanted to invite all your friends for a long evening?
+                                        This room is great!</p>
+                                    <p class="price">200 <span>₴</span>/hour</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <br>
+                    <div class="s2-btn">
+                        <a href="#" class="cyberpunk" id="reserve">Reserve</a>
+                    </div>
+
+                    <div class="form-popup">
+                        <div class="form-container">
+                            <button class="close-button" id="closeForm">X</button>
+                            <h1>Reserve room</h1>
+                            <p>You can leave a request for a room reservation. We will contact you shortly!</p>
+                            <form action="">
+                                <div class="form-group">
+                                    <label>Adress: <span id="selected-adress"></span></label>
+                                </div>
+                                <div class="form-group">
+                                    <label>Room: <span id="selected-room"></span></label>
+                                </div>
+                                <div class="form-group" id="name">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="form-group" id="phone">
+                                    <input type="text" class="form-control" placeholder="Phone Number">
+                                </div>
+                                <button class="cyberpunk">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="playstation section-indent" id="playstation">
+                <div class="section__wrapper">
+                    <div class="section-header">
+                        <img src="/img/svg/yellow-line.svg" alt="Yellow Line" class="yellow-line">
+                        <h1 class="section-name">Playstation</h1>
+                    </div>
+                </div>
+                <div class="s3__content">
+                    <div class="s3__description">
+                        <p>We have plenty of <span>Playstation 4</span> and <span>Playstation 5</span> games in our library for you to enjoy!</p>
+                    </div>
+                    <div class="s3__demo">
+                        <img src="/img/demo/1.jpg" alt="">
+                        <img src="/img/demo/2.jpg" alt="">
+                        <iframe width="570" height="334" src="https://www.youtube.com/embed/GjugTk9ovcI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <img src="/img/demo/3.jpg" alt="">
+                        <img src="/img/demo/4.jpg" alt="">
+                        <img src="/img/demo/5.jpg" alt="">
+                        <img src="/img/demo/6.jpg" alt="">
+                        <img src="/img/demo/7.jpg" alt="">
+                        <img src="/img/demo/8.jpg" alt="">
+                    </div>
                 </div>
             </section>
         </div>
     </main>
-
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="contacts section-indent" id="contacts">
+                <div class="section__wrapper">
+                    <div class="section-header">
+                        <img src="/img/footer/black-line.svg" alt="Yellow Line" class="yellow-line">
+                        <h1 class="section-name">Contacts</h1>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div>
+                        <div class="c">
+                            <img src="/img/footer/phone.png" alt="">
+                            <a href="tel:+380999999999">+380999999999</a>
+                        </div>
+                        <div class="c c-enter">
+                            <img src="/img/footer/arroba.png" alt="">
+                            <a href="mailto:info@cyberspace.ua">info@cyberspace.ua</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="links">
+                            <span class="adr-left">Bakulina St. 10</span>
+                            <span class="adr-right">Peremohy Ave. 66</span>
+                        </div>
+                        <div class="maps">
+                            <div class="map map-left">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.7576257137603!2d36.22469325147424!3d50.01589792636029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a12438dee973%3A0x2d78b1ca74a4ddf2!2z0YPQuy4g0JHQsNC60YPQu9C40L3QsCwgMTAsINCl0LDRgNGM0LrQvtCyLCDQpdCw0YDRjNC60L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2MTAwMA!5e0!3m2!1sru!2sua!4v1659481479458!5m2!1sru!2sua" width="570" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="map map-right">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.3384487498697!2d36.20387596984937!3d50.061222957200826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a418973ddced%3A0x16cd2f2c820c1198!2z0L_RgNC-0YHQvy4g0J_QvtCx0LXQtNGLLCA2Niwg0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDYxMDAw!5e0!3m2!1sru!2sua!4v1659481667604!5m2!1sru!2sua" width="570" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="c">
+                            <img src="/img/footer/tg.png" alt="">
+                            <a href="https://telegram.org">@cyberspace_kh</a>
+                        </div>
+                        <div class="c c-enter">
+                            <img src="/img/footer/instagram.png" alt="">
+                            <a href="https://instagram.com">@cyberspace_kharkiv</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-design">
+                    <a href="https://github.com/shdwraze">&copy; 2022 designed by @shdwraze</a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="/js/jquery.js"></script>
     <script src="/js/script.js"></script>
-    <script src="/js/carousel.js"></script>
 </body>
 
 </html>
